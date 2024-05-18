@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('kapibara.jpg'); /* 背景画像 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.8); /* 半透明の黒 */
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 220px; /* サイドバーの幅 + マージン */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* 背景に白色を半透明で追加 */
+}
+
+.block {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #666;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
